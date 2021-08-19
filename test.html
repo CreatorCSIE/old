@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>test</title>
+<link href="MCL.ico" rel="icon" type="image/x-ico"/>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script type="text/javascript">
+function check1(){
+var password = document.getElementById("PASSWORD1").value;
+if(password == "testtesttest"){
+    alert("如果你看到这条消息，说明密码正确");
+    return true;
+}
+else{
+       alert("请必须输入密码,或者密码错误");
+       return false;
+    }
+}
+</script>
+
+<style type="text/css">
+.style1 {
+				text-align: center;
+}
+.style2 {
+				font-size: large;
+}
+</style>
+
+</head>
+
+<body>
+<div id="toppanel">
+	<div id="logo"><a href="./"><img alt="" src="logo_small.gif" border="0" /></a></div>
+	<div id="links">
+	    250 servers, 112327 registered, 4346 purchases. <a href="stats.jsp">More stats</a><br />
+		<a href="/">Home</a>, <a href="about.jsp">About</a>, <a href="development.jsp">Development status</a>, <a href="community.jsp">Community</a>, <a href="skin/">Preferences</a>
+	</div>
+	<div id="loginpanel">
+		
+			Not logged in. [ <a href="login.aspx">Log in</a> | <a href="register.aspx">Register</a> ] 
+		
+	</div>
+	
+<!-- <div class="donate">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="5920955"><input type="image" src="https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypal.com/sv_SE/i/scr/pixel.gif" width="1" height="1"></form>
+	</div> -->
+	
+	
+	<div id="prepurchasesplash"><a href="prepurchase.jsp"><img alt="" border="0" src="prepurchasesplash.gif" /></a></div>
+	
+</div>
+<div id="content" class="style1">
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+Hey.<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<span class="style2">Do you see this text, that is a test page, not used on the website.<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<b>TEST</b>
+</span>
+
+<form method="post" name="form1" action="/" onsubmit="return check1()">
+				<input name="password1" type="password" id="PASSWORD1" />
+				<input name="submit1" type="submit" value="Go!" />
+</form>
+</div>
+<div id="footer">Copyright 2020 (c) CSIE_WOW. All rights 
+reserved.</div>
+</body>
+
+</html>
