@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.6+" codebase="http://103.107.189.25:47891/NotchGame/Blastpassage/" href="Blastpassage.jnlp">
+<information>
+    <title>BlastPassage</title>
+    <vendor>Markus Persson</vendor>
+    <homepage href="http://45.253.67.78:47891/NotchGame"/>
+    <offline-allowed/> 
+</information>
+<security>
+    <all-permissions/>
+</security>
+<resources>
+<j2se version="1.6+"/> 
+<jar href="blastpassage.jar"/>
+</resources>
+<applet-desc name="blastpassage" main-class="com.mojang.blastpassage.BlastPassageApplet" width="640" height="480"/>
+    <param name="image" value="splash.gif"/>
+    <param name="boxmessage" value="Loading Blast Passage.."/>
+    <param name="java_arguments" value="-Djava.util.Arrays.useLegacyMergeSort=true -Dsun.java2d.noddraw=true -Dsun.awt.noerasebackground=true -Dsun.java2d.d3d=false -Dsun.java2d.opengl=false -Dsun.java2d.pmoffscreen=false -Xmx2048M -Xms1024M"/>
+</jnlp>
