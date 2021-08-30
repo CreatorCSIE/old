@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.5+" codebase="http://103.107.189.25:47891/NotchGame/VVVV/" href="VVVV.jnlp">
+<information>
+    <title>VVVV</title>
+    <vendor>Markus Persson</vendor>
+    <homepage href="http://103.107.189.25:47891/NotchGame/"/>
+    <offline-allowed/> 
+</information>
+<resources>
+<j2se version="1.4.2+"/> 
+<jar href="VVVV.jar"/>
+</resources>
+<applet-desc name="VVVV" main-class="V" width="640" height="480"/>
+</jnlp>

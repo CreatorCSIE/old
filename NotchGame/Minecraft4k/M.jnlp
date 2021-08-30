@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.5+" codebase="http://103.107.189.25:47891/NotchGame/Minecraft4k" href="M.jnlp">
+<information>
+    <title>Minecraft 4k</title>
+    <vendor>Markus Persson</vendor>
+    <homepage href="http://103.107.189.25:47891/NotchGame"/>
+    <offline-allowed/> 
+</information>
+<resources>
+<j2se version="1.4.2+"/> 
+<jar href="M.jar"/>
+</resources>
+<applet-desc name="Minecraft 4k" main-class="M" width="854" height="480"/>
+</jnlp>
